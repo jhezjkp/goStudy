@@ -14,4 +14,10 @@ func main() {
     fmt.Println(sayHi("vivia"))
     const PI = 3.14
     fmt.Printf("PI=%v\n", PI)
+    fmt.Printf("%d\n", 100)
+    fmt.Printf("%d\n", 0x100)
+    fmt.Printf("%x\n", 0x100)
+    fmt.Printf("%X\n", 0x100)
+    fmt.Printf("%X\n", 256)
+    fmt.Printf("%5d\n", 256)
 }
