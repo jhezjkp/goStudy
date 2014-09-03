@@ -20,4 +20,8 @@ func main() {
     fmt.Printf("%X\n", 0x100)
     fmt.Printf("%X\n", 256)
     fmt.Printf("%5d\n", 256)
+
+    fmt.Println("===运算符===")
+    fmt.Printf("%d\n", 2 ^ 3)
+    fmt.Printf("%d\n", ^ 2)
 }
